@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoughtLab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Funnel+Display:wght@300..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video class="background-video" autoplay muted loop playsinline user-select="none">
+        <source src="https://videos.pexels.com/video-files/14904127/14904127-hd_1920_1080_30fps.mp4" type="video/mp4">
+    </video>
+    
+    <div class="ripple-container">
+        <div class="ripple"></div>
+        <div class="ripple"></div>
+        <div class="ripple"></div>
+        <div class="ripple"></div>
+        <div class="ripple"></div>
+    </div>
+
+    <header class="header">
+        <nav class="nav-menu">
+            <a href="/blog" class="blog-link">Articles</a>
+            <a href="/contact">Contact</a>
+            <a href="https://twitter.com/noughtlab" target="_blank">Twitter</a>
+        </nav>
+    </header>
+
+    <div class="content-container">
+        <div class="main-content">
+            <div class="quote">Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won't come in.</div>
+            <div class="links">
+                <a href="/read">Read NoughtLab</a>
+                <a href="#" id="knowLink">Know NoughtLab</a>
+            </div>
+        </div>
+        <div class="know-content">
+            <div class="know-text">We believe in observing, understanding, and learning—this space exists to echo that philosophy. Stay tuned as we build this library sharing and expanding our knowledge base.</div>
+            <div class="links">
+                <a href="/" id="homeLink">That's cool</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="articles-container">
+        <div class="article-grid">
+            <a href="#" class="back-home">Back to home</a>
+
+            <a href="/article/bis.html" class="article-card">
+                <h2 class="article-title">The Indian framework for Classifying standards.</h2>
+                <p class="article-description">How Beureau of Indian Srandards works!</p>
+            </a>
+            <a href="/article/comn-execution.html" class="article-card">
+                <h2 class="article-title">Comn is an execution strategy.</h2>
+                <p class="article-description">The philosophy behind my next project.</p>
+            </a>
+            <a href="/article/shameless-marketing.html" class="article-card">
+                <h2 class="article-title">Shameless Marketing</h2>
+                <p class="article-description">Ads are frustating, why do they exist?</p>
+            </a>
+        </div>
+    </div>
+    
+    <div class="clock-container">
+        <div class="dot"></div>
+        <div id="clock" class="clock"></div>
+        <div class="country">India</div>
+    </div>
+
+    <div class="attribution">
+        <div>Quote by Alan Alda </div>
+        <div>Background by Milan Matos</div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="pageTransition.js"></script>
+    <script src="contactDropdown.js"></script>
+</body>
+</html>
